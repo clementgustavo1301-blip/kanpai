@@ -35,7 +35,7 @@ export function HeroSection() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
-                        <h1 className="font-sans text-4xl font-bold tracking-tight text-white md:text-7xl lg:text-8xl">
+                        <h1 className="font-sans text-6xl font-bold tracking-tight text-white md:text-7xl lg:text-8xl">
                             KANPAI <br />
                             <span className="text-white">SUSHI</span>
                         </h1>
