@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kanpai-charcoal: #111111;
+  --color-kanpai-salmon: #fa7c54;
+  --color-kanpai-crimson: #c82a2a;
+  --color-kanpai-parchment: #fafafa;
+  --color-kanpai-dark: #0a0a0a;
+
+  --font-sans: var(--font-montserrat);
+  --font-serif: var(--font-merriweather);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-kanpai-charcoal);
+    color: var(--color-kanpai-parchment);
+    font-family: var(--font-sans);
+  }
+}
+
+/* Base utility classes for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
